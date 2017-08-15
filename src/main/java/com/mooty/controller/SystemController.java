@@ -75,7 +75,7 @@ public class SystemController extends BaseController{
         System.out.println(cacheUtil.getCacheMap("reMap"));
         System.out.println("========cacheUtil===========");
 
-
+        System.out.println("I screaming something to you , whatever something to me !!");
 
         return "/system/hello";
     }
