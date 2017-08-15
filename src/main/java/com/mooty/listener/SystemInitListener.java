@@ -25,10 +25,21 @@ public class SystemInitListener implements ServletContextListener{
     public void contextInitialized(ServletContextEvent servletContextEvent) {
         System.out.println("系统正在初始化!");
 
+        System.out.println("In the end ");
 
     }
 
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
-        //TODO;
+
+        System.out.println("In the end ");
+
+        System.out.println("In the end ");
+
+        System.out.println("In the end ");
+
+        System.out.println("In the end ");
+
+        System.out.println("In the end ");
+
     }
 }

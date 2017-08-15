@@ -20,4 +20,9 @@ public class BaseController {
     public void initBinder(){
         System.out.println("InitBinder!!!!");
     }
+
+
+    public String toString(){
+        return "";
+    }
 }
