@@ -51,6 +51,7 @@ public class SystemController extends BaseController{
         System.out.println(testName);
 
         redisService.set("testName","loumingtao");
+        redisService.set("testName","loumingtao");
 
         System.out.println("============");
         System.out.println(redisService.get("testName"));
@@ -75,7 +76,13 @@ public class SystemController extends BaseController{
         System.out.println(cacheUtil.getCacheMap("reMap"));
         System.out.println("========cacheUtil===========");
 
-
+        System.out.println("I screaming something to you , whatever something to me !!");
+        System.out.println("In the ends");
+        System.out.println("In the ends");
+        System.out.println("In the ends");
+        System.out.println("In the ends");
+        System.out.println("In the ends");
+        System.out.println("In the ends");
 
         return "/system/hello";
     }
