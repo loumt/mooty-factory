@@ -21,8 +21,4 @@ public class BaseController {
         System.out.println("InitBinder!!!!");
     }
 
-
-    public String toString(){
-        return "";
-    }
 }

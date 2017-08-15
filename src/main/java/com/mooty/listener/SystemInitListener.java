@@ -30,19 +30,6 @@ public class SystemInitListener implements ServletContextListener{
 
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         //TODO;
-        System.out.println("这是切回2017.3.1后第一次提交");
-        System.out.println("这是切回2017.3.1后第二次提交");
-        System.out.println("这是切回2017.3.1后第三次提交");
-
-        System.out.println("In the end ");
-
-        System.out.println("In the end ");
-
-        System.out.println("In the end ");
-
-        System.out.println("In the end ");
-
-        System.out.println("In the end ");
 
     }
 }
