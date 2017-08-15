@@ -51,6 +51,7 @@ public class SystemController extends BaseController{
         System.out.println(testName);
 
         redisService.set("testName","loumingtao");
+        redisService.set("testName","loumingtao");
 
         System.out.println("============");
         System.out.println(redisService.get("testName"));
